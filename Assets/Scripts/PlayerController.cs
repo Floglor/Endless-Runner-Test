@@ -1,5 +1,10 @@
 ﻿using UnityEngine;
 
+[RequireComponent(typeof(IInputController))]
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(CircleCollider2D))]
+
+
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private LayerMask raycastLayerMask;

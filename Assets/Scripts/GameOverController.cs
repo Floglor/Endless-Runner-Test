@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(IInputController))]
 internal class GameOverController : MonoBehaviour
 {
     public static GameOverController Instance;
